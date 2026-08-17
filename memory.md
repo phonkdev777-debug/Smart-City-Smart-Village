@@ -3,7 +3,7 @@
 > This file is the project's living state document.
 > A future AI model or developer must be able to read this file and understand the current project state without relying on chat history.
 
-**Last updated:** 2026-08-17
+**Last updated:** 2026-08-17 (GitHub repo created, initial commit pushed)
 
 ---
 
@@ -16,6 +16,21 @@
 | Competition | FOSSEE Geospatial Mapathon 2026 |
 | Registered Topic | Smart City / Smart Village |
 | Study Area | Trichirappalli Municipal Corporation, Tamil Nadu, India |
+
+---
+
+## GitHub Repository
+
+| Field | Value |
+|-------|-------|
+| Repository | https://github.com/phonkdev777-debug/Smart-City-Smart-Village |
+| Remote URL | https://github.com/phonkdev777-debug/Smart-City-Smart-Village.git |
+| Visibility | Public |
+| Branch | `main` |
+| Initial Commit | `2cf60bb` |
+| Initial Commit Date | 2026-08-17 |
+| Files in Initial Commit | 12 (project foundation: docs, config, memory, license) |
+| Initial Commit Size | 3,031 insertions |
 
 ---
 
@@ -319,7 +334,7 @@ None at initialization.
 |-------|-------|
 | Status | **IN PROGRESS** |
 | Started | 2026-08-17 |
-| Completed work | Data inventory (9 datasets), provenance model, data dictionary (schemas pending), quality report template, Indian geospatial candidate research |
+| Completed work | Data inventory (9 datasets), provenance model, data dictionary (schemas pending), quality report template, Indian geospatial candidate research, GitHub repository setup (public, initial commit pushed) |
 | Files created | `docs/data/data-inventory.md`, `docs/data/data-provenance.md`, `docs/data/data-dictionary.md`, `docs/data/data-quality-report.md` |
 | Decisions made | Bhuvan LULC 50K as primary Indian dataset candidate; OSM as contextual/facility data source |
 | Validation | Repository inspected — no GIS data files present |
