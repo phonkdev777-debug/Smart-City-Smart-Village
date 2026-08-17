@@ -6,7 +6,7 @@
 
 **Status:** IN PROGRESS
 
-**Last updated:** 2026-08-17
+**Last updated:** 2026-08-17 (Phase 3B — OSM data acquired and validated)
 
 ---
 
@@ -14,14 +14,14 @@
 
 | Dataset | Inspected | Validation Performed | Issues Found | Severity | Status |
 |---------|-----------|---------------------|--------------|----------|--------|
-| DS-001: Corporation Boundary | No | — | — | — | NOT INSPECTED |
-| DS-002: Ward Boundaries | No | — | — | — | NOT INSPECTED |
-| DS-003: Roads | No | — | — | — | NOT INSPECTED |
-| DS-004: Healthcare | No | — | — | — | NOT INSPECTED |
-| DS-005: Education | No | — | — | — | NOT INSPECTED |
-| DS-006: Water Features | No | — | — | — | NOT INSPECTED |
-| DS-007: Civic Facilities | No | — | — | — | NOT INSPECTED |
-| DS-008: Bhuvan LULC 50K | No | — | — | — | NOT INSPECTED |
+| DS-001: Corporation Boundary | Yes | Source, geometry, CRS, coverage | Bbox not clipped | Informational | VALIDATED |
+| DS-002: Ward Boundaries | Yes | Count, names, CRS | None | — | VALIDATED |
+| DS-003: Roads | Yes | Count, types, CRS | Bbox not clipped | Informational | ACQUIRED |
+| DS-004: Healthcare | Yes | Count, types, CRS | None | — | ACQUIRED |
+| DS-005: Education | Yes | Count, types, CRS | None | — | ACQUIRED |
+| DS-006: Water Features | Yes | Count, types, CRS | None | — | ACQUIRED |
+| DS-007: Civic Facilities | Yes | Count, types, CRS | None | — | ACQUIRED |
+| DS-008: Bhuvan LULC 50K | Yes (source only) | Portal verified | Requires manual request | — | SOURCE VERIFIED |
 | DS-009: Bhuvan LULC 250K | No | — | — | — | NOT INSPECTED |
 
 ---
@@ -85,11 +85,11 @@ For each inspected dataset, record:
 
 ## Issues Log
 
-No datasets have been inspected yet. Issues will be recorded here as they are discovered.
-
 | Issue ID | Dataset | Issue Description | Severity | Action Required | Status |
 |----------|---------|-------------------|----------|-----------------|--------|
-| — | — | No issues yet | — | — | — |
+| IQ-001 | DS-003: Roads | Extracted from bounding box, not clipped to corporation boundary | Informational | Clip to corporation boundary in Phase 4 | DOCUMENTED |
+| IQ-002 | DS-008: Bhuvan LULC 50K | Requires manual download request (register, AOI, purpose, email approval) | Informational | User must manually request download | BLOCKED |
+| IQ-003 | ALL OSM | All datasets are community-maintained, not official government data | Informational | Document provenance, do not claim official status | DOCUMENTED |
 
 ### Severity Levels
 
@@ -104,21 +104,28 @@ No datasets have been inspected yet. Issues will be recorded here as they are di
 
 ## Data Acquisition Status
 
-No datasets have been acquired yet. This section will be updated as data is downloaded and inspected.
-
 | Dataset | Source | Acquisition Method | Date | File Size | Status |
 |---------|--------|-------------------|------|-----------|--------|
-| — | — | — | — | — | NOT ACQUIRED |
+| DS-001: Corporation Boundary | OSM | Overpass API (relation 1553009) | 2026-08-17 | 22.3 KB | ACQUIRED |
+| DS-002: Ward Boundaries | OSM | Overpass API (admin_level=10) | 2026-08-17 | 42.2 KB | ACQUIRED |
+| DS-003: Roads | OSM | Overpass API (bbox) | 2026-08-17 | 3797.7 KB | ACQUIRED |
+| DS-004: Healthcare | OSM | Overpass API (bbox) | 2026-08-17 | 87.4 KB | ACQUIRED |
+| DS-005: Education | OSM | Overpass API (bbox) | 2026-08-17 | 10.2 KB | ACQUIRED |
+| DS-006: Water Features | OSM | Overpass API (bbox) | 2026-08-17 | 259.5 KB | ACQUIRED |
+| DS-007: Civic Facilities | OSM | Overpass API (bbox) | 2026-08-17 | 9.8 KB | ACQUIRED |
+| DS-008: Bhuvan LULC 50K | Bhuvan/ISRO | Manual request required | — | — | PENDING |
+| DS-009: Bhuvan LULC 250K | Bhuvan/ISRO | Manual request required | — | — | PENDING |
 
 ---
 
 ## Quality Assurance Notes
 
-- Do not mark a dataset as validated if it was only identified but not inspected
-- If a validation check fails, document the issue — do not silently fix it
-- If data needs preprocessing, document the transformation
-- Preserve original source data separately from processed data
-- Quality checks should be performed in QGIS where possible
+- All OSM datasets were inspected on 2026-08-17 via Overpass API
+- Coordinate ranges verified within Trichy area bounds (~10.8N, ~78.7E)
+- Feature counts compared to project specification reference values
+- OSM is community-maintained data, NOT official government data
+- Bounding box queries may include features outside corporation boundary
+- Bhuvan LULC 50K source verified but requires manual download request
 
 ---
 

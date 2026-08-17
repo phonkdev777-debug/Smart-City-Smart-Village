@@ -6,7 +6,7 @@
 
 **Status:** IN PROGRESS
 
-**Last updated:** 2026-08-17
+**Last updated:** 2026-08-17 (Phase 3B — OSM data acquired)
 
 ---
 
@@ -22,85 +22,140 @@ This data dictionary documents verified field schemas only.
 
 ## DS-001: Corporation Boundary
 
-**Status:** NOT YET ACQUIRED
+**Status:** ACQUIRED (OSM)
 
-Expected schema (based on SoI Administrative Boundary Database):
+Actual schema (from OpenStreetMap relation 1553009):
 
 | Field | Type | Meaning | Required | Notes |
 |-------|------|---------|----------|-------|
-| TO BE VERIFIED DURING DATA VALIDATION | — | — | — | — |
+| id | number | OSM relation ID | YES | 1553009 |
+| type | string | OSM element type | YES | "relation" |
+| tags.admin_level | string | Administrative level | YES | "8" |
+| tags.boundary | string | Boundary type | YES | "administrative" |
+| tags.name | string | Boundary name | YES | "Trichy Corporation Limits" |
+| tags.type | string | Relation type | YES | "boundary" |
+| tags.website | string | Source website | YES | "https://www.trichycorporation.gov.in/" |
+| tags.wikidata | string | Wikidata identifier | YES | "Q4045755" |
+| members | array | Member ways (30) | YES | Outer boundary ways |
 
 ---
 
 ## DS-002: Ward Boundaries
 
-**Status:** NOT YET ACQUIRED
+**Status:** ACQUIRED (OSM)
 
-Expected schema (based on project requirements):
+Actual schema (from OpenStreetMap admin_level=10 relations):
 
 | Field | Type | Meaning | Required | Notes |
 |-------|------|---------|----------|-------|
-| TO BE VERIFIED DURING DATA VALIDATION | — | — | — | Expected fields: ward_name, ward_id, ward_number |
+| id | number | OSM relation ID | YES | Various IDs |
+| type | string | OSM element type | YES | "relation" |
+| tags.admin_level | string | Administrative level | YES | "10" |
+| tags.boundary | string | Boundary type | YES | "administrative" |
+| tags.name | string | Ward name | YES | "Ward 1" through "Ward 65" |
+| tags.type | string | Relation type | YES | "boundary" |
 
 ---
 
 ## DS-003: Roads (OSM)
 
-**Status:** NOT YET ACQUIRED
+**Status:** ACQUIRED (OSM)
 
-Expected schema (based on OSM data model):
+Actual schema (from OpenStreetMap highway ways):
 
 | Field | Type | Meaning | Required | Notes |
 |-------|------|---------|----------|-------|
-| TO BE VERIFIED DURING DATA VALIDATION | — | — | — | Expected OSM tags: name, highway, surface, oneway, lanes |
+| id | number | OSM way ID | YES | Unique way identifier |
+| type | string | OSM element type | YES | "way" |
+| tags.highway | string | Road classification | YES | primary, secondary, tertiary, residential, etc. |
+| tags.name | string | Road name | NO | May be empty |
+| tags.surface | string | Road surface type | NO | asphalt, concrete, etc. |
+| tags.lanes | string | Number of lanes | NO | May be empty |
+| tags.oneway | string | One-way flag | NO | yes/no |
+| tags.width | string | Road width | NO | May be empty |
+| geometry | array | Way nodes | YES | Array of {lat, lon} points |
 
 ---
 
 ## DS-004: Healthcare Facilities (OSM)
 
-**Status:** NOT YET ACQUIRED
+**Status:** ACQUIRED (OSM)
 
-Expected schema (based on OSM tagging):
+Actual schema (from OpenStreetMap healthcare nodes):
 
 | Field | Type | Meaning | Required | Notes |
 |-------|------|---------|----------|-------|
-| TO BE VERIFIED DURING DATA VALIDATION | — | — | — | Expected OSM tags: name, amenity, healthcare, operator, addr:* |
+| id | number | OSM node ID | YES | Unique node identifier |
+| type | string | OSM element type | YES | "node" |
+| tags.amenity | string | Amenity type | YES | hospital, clinic, doctors, pharmacy, dentist |
+| tags.healthcare | string | Healthcare type | YES | hospital, clinic, pharmacy, dentist, etc. |
+| tags.name | string | Facility name | NO | May be empty |
+| tags.operator | string | Operator/owner | NO | May be empty |
+| tags.addr:street | string | Street address | NO | May be empty |
+| tags.addr:city | string | City | NO | May be empty |
+| tags.phone | string | Phone number | NO | May be empty |
+| lat | number | Latitude | YES | WGS84 |
+| lon | number | Longitude | YES | WGS84 |
 
 ---
 
 ## DS-005: Education Facilities (OSM)
 
-**Status:** NOT YET ACQUIRED
+**Status:** ACQUIRED (OSM)
 
-Expected schema (based on OSM tagging):
+Actual schema (from OpenStreetMap education nodes):
 
 | Field | Type | Meaning | Required | Notes |
 |-------|------|---------|----------|-------|
-| TO BE VERIFIED DURING DATA VALIDATION | — | — | — | Expected OSM tags: name, amenity, education, operator, addr:* |
+| id | number | OSM node ID | YES | Unique node identifier |
+| type | string | OSM element type | YES | "node" |
+| tags.amenity | string | Amenity type | YES | school, college, university, kindergarten |
+| tags.name | string | Facility name | NO | May be empty |
+| tags.operator | string | Operator/owner | NO | May be empty |
+| tags.addr:street | string | Street address | NO | May be empty |
+| tags.addr:city | string | City | NO | May be empty |
+| lat | number | Latitude | YES | WGS84 |
+| lon | number | Longitude | YES | WGS84 |
 
 ---
 
 ## DS-006: Water Features (OSM)
 
-**Status:** NOT YET ACQUIRED
+**Status:** ACQUIRED (OSM)
 
-Expected schema (based on OSM tagging):
+Actual schema (from OpenStreetMap water features):
 
 | Field | Type | Meaning | Required | Notes |
 |-------|------|---------|----------|-------|
-| TO BE VERIFIED DURING DATA VALIDATION | — | — | — | Expected OSM tags: name, natural, water, waterway, man_made |
+| id | number | OSM element ID | YES | Unique element identifier |
+| type | string | OSM element type | YES | "node" or "way" |
+| tags.natural | string | Natural feature type | CONDITIONAL | "water" for water bodies |
+| tags.waterway | string | Waterway type | CONDITIONAL | ditch, drain, canal, stream, river |
+| tags.man_made | string | Man-made water feature | CONDITIONAL | pond, tank, water_tap, water_well |
+| tags.name | string | Feature name | NO | May be empty |
+| tags.water | string | Water body type | NO | lake, pond, reservoir, etc. |
+| geometry | array/array | Nodes or way nodes | YES | Point or LineString geometry |
 
 ---
 
 ## DS-007: Civic Facilities (OSM)
 
-**Status:** NOT YET ACQUIRED
+**Status:** ACQUIRED (OSM)
 
-Expected schema (based on OSM tagging):
+Actual schema (from OpenStreetMap civic facility nodes):
 
 | Field | Type | Meaning | Required | Notes |
 |-------|------|---------|----------|-------|
-| TO BE VERIFIED DURING DATA VALIDATION | — | — | — | Expected OSM tags: name, amenity, office, government |
+| id | number | OSM node ID | YES | Unique node identifier |
+| type | string | OSM element type | YES | "node" |
+| tags.amenity | string | Amenity type | YES | police, post_office, community_centre, social_facility |
+| tags.office | string | Office type | CONDITIONAL | "government" for government offices |
+| tags.name | string | Facility name | NO | May be empty |
+| tags.addr:street | string | Street address | NO | May be empty |
+| tags.addr:city | string | City | NO | May be empty |
+| tags.phone | string | Phone number | NO | May be empty |
+| lat | number | Latitude | YES | WGS84 |
+| lon | number | Longitude | YES | WGS84 |
 
 ---
 

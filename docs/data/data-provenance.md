@@ -6,7 +6,7 @@
 
 **Status:** IN PROGRESS
 
-**Last updated:** 2026-08-17
+**Last updated:** 2026-08-17 (Phase 3B — OSM data acquired)
 
 ---
 
@@ -181,6 +181,178 @@ notes: ""
 | QGIS project file (.qgz) | Processing history, layer styles |
 | GeoPackage metadata | Embedded per-layer metadata |
 | `docs/reproducibility/` (Phase 8) | Final reproducibility package |
+
+---
+
+## Acquired Dataset Provenance
+
+### DS-001: Corporation Boundary (OSM)
+
+```yaml
+dataset_id: "DS-001"
+dataset_name: "Trichy Corporation Limits"
+source_organization: "OpenStreetMap contributors"
+official_url: "https://www.openstreetmap.org/relation/1553009"
+access_method: "Overpass API query"
+access_date: "2026-08-17"
+version_cycle: "OSM current"
+license: "Open Database License (ODbL)"
+attribution: "© OpenStreetMap contributors"
+crs_original: "EPSG:4326 (WGS84)"
+crs_processed: "EPSG:4326"
+processing_steps:
+  - "Query relation 1553009 via Overpass API"
+  - "Retrieve with member way geometry"
+intended_use: "Study area boundary for clipping, project context, Web GIS base layer"
+verification_status: "source verified"
+notes: "OSM relation 1553009, admin_level=8, 30 member ways, 359 geometry points. Wikidata Q4045755. Source references trichycorporation.gov.in. This is community data, not official government boundary."
+```
+
+### DS-002: Ward Boundaries (OSM)
+
+```yaml
+dataset_id: "DS-002"
+dataset_name: "Trichy Corporation Ward Boundaries"
+source_organization: "OpenStreetMap contributors"
+official_url: "https://www.openstreetmap.org (admin_level=10 relations)"
+access_method: "Overpass API query (bounding box)"
+access_date: "2026-08-17"
+version_cycle: "OSM current"
+license: "Open Database License (ODbL)"
+attribution: "© OpenStreetMap contributors"
+crs_original: "EPSG:4326 (WGS84)"
+crs_processed: "EPSG:4326"
+processing_steps:
+  - "Query admin_level=10 relations in bounding box (10.75,78.60,10.90,78.80)"
+intended_use: "Ward-level spatial analysis, ward selection, thematic mapping"
+verification_status: "source verified"
+notes: "65 ward boundaries found. Names: Ward 1 through Ward 65. Matches project specification count. Community-maintained, not official."
+```
+
+### DS-003: Roads (OSM)
+
+```yaml
+dataset_id: "DS-003"
+dataset_name: "Trichy Road Network"
+source_organization: "OpenStreetMap contributors"
+official_url: "https://www.openstreetmap.org"
+access_method: "Overpass API query (bounding box)"
+access_date: "2026-08-17"
+version_cycle: "OSM current"
+license: "Open Database License (ODbL)"
+attribution: "© OpenStreetMap contributors"
+crs_original: "EPSG:4326 (WGS84)"
+crs_processed: "EPSG:4326"
+processing_steps:
+  - "Query highway=* ways in bounding box (10.75,78.60,10.90,78.80)"
+intended_use: "Road network for contextual mapping, proximity analysis reference"
+verification_status: "acquired"
+notes: "15,409 road elements. Extracted from bounding box, NOT clipped to corporation boundary. Residential (11,834), service (1,277), unclassified (677), tertiary (486), trunk (374)."
+```
+
+### DS-004: Healthcare Facilities (OSM)
+
+```yaml
+dataset_id: "DS-004"
+dataset_name: "Trichy Healthcare Facilities"
+source_organization: "OpenStreetMap contributors"
+official_url: "https://www.openstreetmap.org"
+access_method: "Overpass API query (bounding box)"
+access_date: "2026-08-17"
+version_cycle: "OSM current"
+license: "Open Database License (ODbL)"
+attribution: "© OpenStreetMap contributors"
+crs_original: "EPSG:4326 (WGS84)"
+crs_processed: "EPSG:4326"
+processing_steps:
+  - "Query amenity=hospital|clinic|doctors and healthcare=* in bounding box"
+intended_use: "Healthcare facility mapping, proximity analysis, gap analysis"
+verification_status: "acquired"
+notes: "234 elements. Hospital (133), clinic (52), pharmacy (22), dentist (8), doctors (2), blood_bank (1). NOT a complete census."
+```
+
+### DS-005: Education Facilities (OSM)
+
+```yaml
+dataset_id: "DS-005"
+dataset_name: "Trichy Education Facilities"
+source_organization: "OpenStreetMap contributors"
+official_url: "https://www.openstreetmap.org"
+access_method: "Overpass API query (bounding box)"
+access_date: "2026-08-17"
+version_cycle: "OSM current"
+license: "Open Database License (ODbL)"
+attribution: "© OpenStreetMap contributors"
+crs_original: "EPSG:4326 (WGS84)"
+crs_processed: "EPSG:4326"
+processing_steps:
+  - "Query amenity=school|college|university|kindergarten in bounding box"
+intended_use: "Education facility mapping, gap analysis"
+verification_status: "acquired"
+notes: "47 elements. School (39), university (5), college (3). NOT a complete census."
+```
+
+### DS-006: Water Features (OSM)
+
+```yaml
+dataset_id: "DS-006"
+dataset_name: "Trichy Water Features"
+source_organization: "OpenStreetMap contributors"
+official_url: "https://www.openstreetmap.org"
+access_method: "Overpass API query (bounding box)"
+access_date: "2026-08-17"
+version_cycle: "OSM current"
+license: "Open Database License (ODbL)"
+attribution: "© OpenStreetMap contributors"
+crs_original: "EPSG:4326 (WGS84)"
+crs_processed: "EPSG:4326"
+processing_steps:
+  - "Query natural=water, waterway=*, man_made=water_tap|water_well in bounding box"
+intended_use: "Water feature mapping, distribution analysis"
+verification_status: "acquired"
+notes: "528 elements. Mixed geometry (Point/Polygon/LineString). Ditch (319), drain (50), canal (50), water (47), stream (36), river (22). May not be complete."
+```
+
+### DS-007: Civic Facilities (OSM)
+
+```yaml
+dataset_id: "DS-007"
+dataset_name: "Trichy Civic Facilities"
+source_organization: "OpenStreetMap contributors"
+official_url: "https://www.openstreetmap.org"
+access_method: "Overpass API query (bounding box)"
+access_date: "2026-08-17"
+version_cycle: "OSM current"
+license: "Open Database License (ODbL)"
+attribution: "© OpenStreetMap contributors"
+crs_original: "EPSG:4326 (WGS84)"
+crs_processed: "EPSG:4326"
+processing_steps:
+  - "Query amenity=community_centre|town_hall|post_office|fire_station|police|library and office=government in bounding box"
+intended_use: "Civic facility mapping, availability analysis"
+verification_status: "acquired"
+notes: "40 elements. Police (12), post_office (11), community_centre (8), government (7), social_facility (2)."
+```
+
+### DS-008: Bhuvan LULC 1:50K
+
+```yaml
+dataset_id: "DS-008"
+dataset_name: "Land Use Land Cover 1:50,000 — Tamil Nadu"
+source_organization: "National Remote Sensing Centre (NRSC), ISRO"
+official_url: "https://bhuvan-app3.nrsc.gov.in/data/download/"
+access_method: "Manual request (register, AOI, purpose, email approval)"
+access_date: "2026-08-17 (verified, not downloaded)"
+version_cycle: "2005-06, 2011-12, 2015-16"
+license: "Free for download with registration"
+attribution: "ISRO/NRSC acknowledgement expected"
+crs_original: "TO BE VERIFIED"
+crs_processed: "TO BE VERIFIED"
+processing_steps: []
+intended_use: "Thematic analysis — LULC distribution, urban expansion, green space, built-up area"
+verification_status: "source verified — requires manual download request"
+notes: "Available via Bhuvan portal. Shapefile format. Process: Register → Select districts → Draw AOI → Specify purpose → Email approval. Latest cycle: 2015-16."
+```
 
 ---
 

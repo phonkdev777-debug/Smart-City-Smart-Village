@@ -1,0 +1,2548 @@
+﻿{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-17T16:08:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "relation",
+  "id": 16279822,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204887575,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887561,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887557,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887558,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 1",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16279823,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204887563,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887559,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887560,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887557,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 2",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16279824,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204887564,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887562,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887566,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887559,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 3",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16279825,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204887565,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887571,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887570,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887562,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887567,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 4",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16279826,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204887568,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887569,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887565,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 5",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16279827,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204887568,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887571,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887576,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887572,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 109601290,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 6",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16279828,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204887574,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887561,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887563,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887566,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887570,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204887576,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 7",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280740,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934033,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934034,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934036,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934039,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934037,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934038,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 12",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280741,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934037,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934042,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934040,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934041,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 13",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280742,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934040,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934065,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 109601306,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934057,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934044,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934046,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934047,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 14",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280743,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934039,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934042,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934047,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934045,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 109601292,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 15",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280744,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934035,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934036,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 109601292,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934051,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934048,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072043,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080490,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934049,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934050,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 16",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280745,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934052,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934055,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934053,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934048,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 17",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280746,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934056,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934059,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029573,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934054,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934052,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934051,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934045,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934046,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 18",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280747,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934056,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934044,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934058,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204786647,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 19",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280748,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204786647,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934062,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934060,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934059,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 20",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280749,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934058,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934057,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934043,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934061,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934062,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 21",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280750,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934043,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934063,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934064,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029568,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934068,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934067,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 109601306,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 22",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280751,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205005611,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934070,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934071,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934066,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934068,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 23",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280752,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204993480,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934075,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934076,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934069,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029561,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934071,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 24",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16280753,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934072,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934076,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934074,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934078,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204993483,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 25",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16282673,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934074,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934075,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204993481,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205005609,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 109601300,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204993483,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 8",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16282791,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204993480,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204993481,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1205005610,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205005612,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934070,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 9",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16282792,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204993482,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205005609,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205005610,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205005613,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 10",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16282793,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205005614,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934038,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934067,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934065,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934041,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205005613,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205005612,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205005611,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 11",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16282864,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205029564,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029565,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934072,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934069,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029562,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072028,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 26",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16282865,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205029566,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029567,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029568,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934066,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029561,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029562,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 27",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16282866,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205166837,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029569,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029570,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029571,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934064,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029567,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 28",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16282867,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205029563,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204786649,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029570,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 29",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16282868,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1204934061,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934063,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029571,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204786649,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072031,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072032,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029572,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029573,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934060,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 30",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283204,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205072029,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072030,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1204934055,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934054,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029572,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 31",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283205,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205072032,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072029,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072033,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072035,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072034,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 32",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283206,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205072034,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072038,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072036,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072037,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072031,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 33",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283207,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205072035,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072038,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088810,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072039,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072040,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 34",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283208,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205072040,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085280,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072041,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072042,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072043,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934053,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072030,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072033,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 35",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283272,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205080490,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080495,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080492,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085273,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080496,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072042,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080491,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 36",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283273,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205080493,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080494,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934049,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080495,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 37",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283274,
+  "members": [
+    {
+      "type": "way",
+      "ref": 109601289,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080493,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080496,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080498,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080497,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080500,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 38",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283275,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205080497,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080501,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080499,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085271,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 39",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283276,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205080500,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080501,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085269,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080502,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080504,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 40",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283412,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205085268,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080502,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080503,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 41",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283413,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205085272,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085278,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085275,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080499,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085269,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1205085268,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085270,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 42",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283414,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205085271,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080498,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080492,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085274,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085275,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 43",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283415,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205085277,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085276,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085273,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085274,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085278,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 44",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283416,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205085279,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088802,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085282,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204786646,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085272,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085277,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085276,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205080491,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1205072041,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088811,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 45",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283477,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205085282,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1205085284,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204786648,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085281,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 46",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283478,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205088804,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088805,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088801,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088800,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085281,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088802,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 47",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283479,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205088803,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1205088804,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085279,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 48",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283480,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205072039,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205085280,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088811,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088803,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088805,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088806,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166839,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088807,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088809,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 49",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16283481,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205088809,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088810,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072036,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166838,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088808,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 50",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16284845,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205166842,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166841,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166836,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166838,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072037,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029563,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029569,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 51",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16284846,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205088808,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1205088807,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166840,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166836,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 52",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16284847,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205166841,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166843,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166845,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166846,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166839,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166840,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 53",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16284848,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205166844,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166848,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205072028,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029566,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166837,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166842,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166843,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 54",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16284849,
+  "members": [
+    {
+      "type": "way",
+      "ref": 109601296,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205183391,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166849,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1204934073,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205029564,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166848,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 55",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16285126,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205183393,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192907,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192908,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 109601296,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 56",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16285127,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205183392,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205183394,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205183393,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 57",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16285128,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205166844,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166849,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205183391,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205183392,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205183686,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192906,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205183395,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166845,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 58",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16285129,
+  "members": [
+    {
+      "type": "way",
+      "ref": 109601294,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088801,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088806,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205166846,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 59",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16285130,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205192905,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205183396,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 109601294,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1205183395,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 60",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16285239,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205183396,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205088800,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1204786648,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192903,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192904,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192913,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 61",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16285240,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205192909,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205183686,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205183394,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192907,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 109601307,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 62",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16285241,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205192906,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192911,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192912,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192909,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 63",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16285242,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205192915,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192911,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192905,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1205192913,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192914,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 64",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 16285243,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1205192914,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192910,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 538585243,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1205192904,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Ward 65",
+    "type": "boundary"
+  }
+}
+
+  ]
+}
+

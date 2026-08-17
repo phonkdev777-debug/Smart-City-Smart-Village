@@ -1,0 +1,529 @@
+﻿{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-17T16:03:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1482551749,
+  "lat": 10.8178071,
+  "lon": 78.6884958,
+  "tags": {
+    "amenity": "school",
+    "name": "Mahatma Gandhi Centinary Vidayalaya",
+    "name:etymology:wikidata": "Q1001"
+  }
+},
+{
+  "type": "node",
+  "id": 1482551796,
+  "lat": 10.8178597,
+  "lon": 78.6881846,
+  "tags": {
+    "amenity": "school",
+    "name": "Rajaji Vidyalaya"
+  }
+},
+{
+  "type": "node",
+  "id": 1482555671,
+  "lat": 10.8255865,
+  "lon": 78.6919346,
+  "tags": {
+    "amenity": "school",
+    "name": "Holy Cross Girls Higher Secondary School"
+  }
+},
+{
+  "type": "node",
+  "id": 2174971115,
+  "lat": 10.7608354,
+  "lon": 78.6953523,
+  "tags": {
+    "amenity": "school"
+  }
+},
+{
+  "type": "node",
+  "id": 2212486565,
+  "lat": 10.8110019,
+  "lon": 78.6666905,
+  "tags": {
+    "amenity": "school",
+    "name": "Saraswathi Bala Mandir School"
+  }
+},
+{
+  "type": "node",
+  "id": 3686857440,
+  "lat": 10.7662386,
+  "lon": 78.7982767,
+  "tags": {
+    "amenity": "university",
+    "name": "Government Arts College"
+  }
+},
+{
+  "type": "node",
+  "id": 3730057426,
+  "lat": 10.7661114,
+  "lon": 78.7955293,
+  "tags": {
+    "amenity": "school",
+    "name": "Sarathas middle school"
+  }
+},
+{
+  "type": "node",
+  "id": 3730057427,
+  "lat": 10.7639108,
+  "lon": 78.7971123,
+  "tags": {
+    "amenity": "school",
+    "name": "Vivekananda Primary School"
+  }
+},
+{
+  "type": "node",
+  "id": 3730099473,
+  "lat": 10.7780661,
+  "lon": 78.7911879,
+  "tags": {
+    "amenity": "university",
+    "name": "Computer Society of india"
+  }
+},
+{
+  "type": "node",
+  "id": 3730099474,
+  "lat": 10.7782849,
+  "lon": 78.7906968,
+  "tags": {
+    "amenity": "school",
+    "name": "Saraswati Vidiyalam School of Music"
+  }
+},
+{
+  "type": "node",
+  "id": 3730099475,
+  "lat": 10.7779427,
+  "lon": 78.7913107,
+  "tags": {
+    "amenity": "university",
+    "name": "The Indian Institute of Metals"
+  }
+},
+{
+  "type": "node",
+  "id": 3730202060,
+  "lat": 10.8245021,
+  "lon": 78.6921604,
+  "tags": {
+    "addr:city": "Tiruchirappalli",
+    "addr:postcode": "620002",
+    "addr:street": "Teppakulam Post, P.B No. 318",
+    "amenity": "university",
+    "name": "Holy Cross College"
+  }
+},
+{
+  "type": "node",
+  "id": 3731233536,
+  "lat": 10.7804494,
+  "lon": 78.7855291,
+  "tags": {
+    "amenity": "school",
+    "name": "Boiler Plant Nursery and Primary School"
+  }
+},
+{
+  "type": "node",
+  "id": 4381628590,
+  "lat": 10.7972296,
+  "lon": 78.6775982,
+  "tags": {
+    "addr:postcode": "620001",
+    "addr:street": "Collector's office road",
+    "amenity": "school",
+    "email": "kapvgmctry@yahoo.co.in",
+    "name": "K.A.P. Viswanatham Government Medical College",
+    "name:en": "K.A.P.VISHWANATHAM GOVERNMENT MEDICAL COLLEGE",
+    "opening_hours": "Mo-Su 10:00-17:00",
+    "phone": "+91 431 240 1011",
+    "website": "http://www.kapvgmc.ac.in"
+  }
+},
+{
+  "type": "node",
+  "id": 4416013690,
+  "lat": 10.7801543,
+  "lon": 78.6767609,
+  "tags": {
+    "amenity": "school",
+    "name:en": "Santa Maria Matriculation School"
+  }
+},
+{
+  "type": "node",
+  "id": 4420664523,
+  "lat": 10.7549819,
+  "lon": 78.6926488,
+  "tags": {
+    "amenity": "school",
+    "name": "Karpaga Vinayagar Matric Higher Secondary School"
+  }
+},
+{
+  "type": "node",
+  "id": 4420664530,
+  "lat": 10.7816727,
+  "lon": 78.6894900,
+  "tags": {
+    "amenity": "school",
+    "name": "Samithi Higher Secondary School"
+  }
+},
+{
+  "type": "node",
+  "id": 4442170458,
+  "lat": 10.8197864,
+  "lon": 78.7265886,
+  "tags": {
+    "amenity": "school",
+    "name": "The British English Medium Matriculation School"
+  }
+},
+{
+  "type": "node",
+  "id": 4447848602,
+  "lat": 10.8415936,
+  "lon": 78.7169782,
+  "tags": {
+    "amenity": "school",
+    "name": "Bhavana Vidhyalaya",
+    "syallabus": "ICSE"
+  }
+},
+{
+  "type": "node",
+  "id": 4447848606,
+  "lat": 10.8299256,
+  "lon": 78.6935157,
+  "tags": {
+    "amenity": "college",
+    "name": "Shrimati Indira Gandhi College",
+    "name:etymology:wikidata": "Q1149",
+    "short_name": "SIGC",
+    "website": "https://sigc.edu/",
+    "wikidata": "Q65080476",
+    "wikipedia": "en:Shrimati Indira Gandhi College"
+  }
+},
+{
+  "type": "node",
+  "id": 4458827834,
+  "lat": 10.7827175,
+  "lon": 78.7249488,
+  "tags": {
+    "amenity": "school",
+    "name": "st.Holly cross school"
+  }
+},
+{
+  "type": "node",
+  "id": 4458827836,
+  "lat": 10.7790788,
+  "lon": 78.7235406,
+  "tags": {
+    "amenity": "school",
+    "name": "st.sacred heart hr.sec.school"
+  }
+},
+{
+  "type": "node",
+  "id": 4458827860,
+  "lat": 10.7780799,
+  "lon": 78.7197097,
+  "tags": {
+    "amenity": "school",
+    "check_date": "2026-07-06",
+    "name": "st.joseph's girls' hr.sec.school"
+  }
+},
+{
+  "type": "node",
+  "id": 4458827870,
+  "lat": 10.7780444,
+  "lon": 78.7188700,
+  "tags": {
+    "amenity": "school",
+    "check_date": "2026-07-06",
+    "name": "st.joseph's nursery &primary school"
+  }
+},
+{
+  "type": "node",
+  "id": 4878927463,
+  "lat": 10.7842622,
+  "lon": 78.7152494,
+  "tags": {
+    "amenity": "school",
+    "brand": "Kendriya Vidhyalaya"
+  }
+},
+{
+  "type": "node",
+  "id": 4878937184,
+  "lat": 10.7846995,
+  "lon": 78.7184987,
+  "tags": {
+    "amenity": "school",
+    "name": "Railway Mixed High School"
+  }
+},
+{
+  "type": "node",
+  "id": 4878938321,
+  "lat": 10.8008896,
+  "lon": 78.7338782,
+  "tags": {
+    "amenity": "school",
+    "name": "Equitas Gurukul Matriculation School",
+    "phone": "+91 431 244 0011"
+  }
+},
+{
+  "type": "node",
+  "id": 4885009077,
+  "lat": 10.7740873,
+  "lon": 78.6956997,
+  "tags": {
+    "amenity": "college",
+    "description": "Periyar EVR college",
+    "name": "Periyar EVR college"
+  }
+},
+{
+  "type": "node",
+  "id": 4919751021,
+  "lat": 10.7832725,
+  "lon": 78.6917312,
+  "tags": {
+    "addr:street": "Tiruchchirappalli Bypass",
+    "amenity": "school",
+    "name": "samadh CBSC SCHOOL",
+    "name:en": "Samadh CBSC School"
+  }
+},
+{
+  "type": "node",
+  "id": 5003291559,
+  "lat": 10.8089300,
+  "lon": 78.7234104,
+  "tags": {
+    "amenity": "school",
+    "name": "Srinivas Vidhyalaya"
+  }
+},
+{
+  "type": "node",
+  "id": 5234626729,
+  "lat": 10.8180750,
+  "lon": 78.6880143,
+  "tags": {
+    "amenity": "school",
+    "name": "mahatma gandhi vidyalaya"
+  }
+},
+{
+  "type": "node",
+  "id": 5234688161,
+  "lat": 10.8145145,
+  "lon": 78.6783028,
+  "tags": {
+    "amenity": "school",
+    "name": "bishop high school"
+  }
+},
+{
+  "type": "node",
+  "id": 5338398122,
+  "lat": 10.8345517,
+  "lon": 78.6901400,
+  "tags": {
+    "amenity": "school",
+    "check_date": "2025-02-12",
+    "name": "Vidivelli Special School",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 5444962849,
+  "lat": 10.8261021,
+  "lon": 78.6900157,
+  "tags": {
+    "amenity": "university",
+    "name": "holy cross educational institute"
+  }
+},
+{
+  "type": "node",
+  "id": 5677785563,
+  "lat": 10.7720750,
+  "lon": 78.7954657,
+  "tags": {
+    "amenity": "school",
+    "name": "Punitha Valanar Nadunilai Palli"
+  }
+},
+{
+  "type": "node",
+  "id": 5755837333,
+  "lat": 10.7639902,
+  "lon": 78.6155772,
+  "tags": {
+    "addr:city": "Tiruchirappalli",
+    "addr:street": "Trichy-Dindigul Road",
+    "amenity": "school",
+    "check_date": "2024-07-28",
+    "name": "St. Vincent Matriculation School",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 6513984737,
+  "lat": 10.7983836,
+  "lon": 78.6872508,
+  "tags": {
+    "amenity": "school",
+    "check_date": "2025-02-12",
+    "name": "St. James Matriculation Higher Secondary School",
+    "religion": "christian",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 7526769782,
+  "lat": 10.7926738,
+  "lon": 78.6882626,
+  "tags": {
+    "amenity": "school",
+    "name": "Railway School"
+  }
+},
+{
+  "type": "node",
+  "id": 12078410435,
+  "lat": 10.7969694,
+  "lon": 78.7102871,
+  "tags": {
+    "amenity": "school",
+    "check_date": "2024-07-28",
+    "name": "Sri Chaitanya Techno School",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 12078443595,
+  "lat": 10.7736425,
+  "lon": 78.6270327,
+  "tags": {
+    "amenity": "school",
+    "check_date": "2024-07-28",
+    "name": "NR IAS Academy",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 12078443600,
+  "lat": 10.7750998,
+  "lon": 78.6335176,
+  "tags": {
+    "amenity": "school",
+    "check_date": "2024-07-28",
+    "name": "The Indian Public School",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 12078443604,
+  "lat": 10.7556733,
+  "lon": 78.6009991,
+  "tags": {
+    "amenity": "college",
+    "check_date": "2024-07-28",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 12298329913,
+  "lat": 10.8037895,
+  "lon": 78.6719184,
+  "tags": {
+    "amenity": "school",
+    "name": "Kamala Niketan Montessori School"
+  }
+},
+{
+  "type": "node",
+  "id": 12298329916,
+  "lat": 10.8028537,
+  "lon": 78.6710330,
+  "tags": {
+    "amenity": "school",
+    "name": "Kamala Niketan Montessori School"
+  }
+},
+{
+  "type": "node",
+  "id": 13408170402,
+  "lat": 10.8091109,
+  "lon": 78.6725305,
+  "tags": {
+    "amenity": "school",
+    "name": "The Indian Public School"
+  }
+},
+{
+  "type": "node",
+  "id": 13854896901,
+  "lat": 10.7893046,
+  "lon": 78.6550801,
+  "tags": {
+    "addr:postcode": "620009",
+    "addr:street": "Dheeran Nagar",
+    "amenity": "school",
+    "contact:facebook": "srvschoolstry",
+    "contact:instagram": "srv_schools_trichy",
+    "email": "srvpublicschooltry@gmail.com",
+    "name": "SRV Public School",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-16:00",
+    "phone": "089039 31111",
+    "website": "https://www.srvschoolstrichy.org"
+  }
+},
+{
+  "type": "node",
+  "id": 13991803586,
+  "lat": 10.7845869,
+  "lon": 78.7074077,
+  "tags": {
+    "amenity": "school",
+    "name": "Kendriya vidyalaya"
+  }
+}
+
+  ]
+}
+

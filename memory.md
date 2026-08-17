@@ -3,7 +3,7 @@
 > This file is the project's living state document.
 > A future AI model or developer must be able to read this file and understand the current project state without relying on chat history.
 
-**Last updated:** 2026-08-17 (GitHub repo created, initial commit pushed)
+**Last updated:** 2026-08-17 (Phase 3B — OSM data acquired and validated)
 
 ---
 
@@ -116,15 +116,21 @@ Build a GIS-based Spatial Decision-Support System that demonstrates how GIS supp
 - [x] Survey of India portal documented (Admin Boundary Database — free access).
 - [x] OpenStreetMap sources identified for roads, healthcare, education, water, civic.
 - [x] Trichy Corporation website documented (ward map, city map).
-- [ ] Actual data acquisition — NOT YET STARTED.
-- [ ] Data validation — NOT YET STARTED.
+- [x] Corporation boundary acquired (OSM relation 1553009, admin_level=8).
+- [x] Ward boundaries acquired (65 OSM relations, admin_level=10).
+- [x] Roads acquired (15,409 elements from bounding box query).
+- [x] Healthcare facilities acquired (234 elements).
+- [x] Education facilities acquired (47 elements).
+- [x] Water features acquired (528 elements).
+- [x] Civic facilities acquired (40 elements).
+- [x] All OSM datasets validated (geometry, CRS, counts, coverage).
+- [x] Bhuvan LULC 50K source verified (requires manual download request).
 
 ## Pending Work
 
-- [ ] Acquire actual GIS datasets (corporation boundary, wards, roads, facilities, water, civic).
-- [ ] Validate acquired datasets (geometry, CRS, attributes, counts).
-- [ ] Verify Indian geospatial dataset (Bhuvan LULC 50K) availability and access.
-- [ ] Complete data provenance documentation for all acquired datasets.
+- [ ] Bhuvan LULC 50K download (requires manual request: register, AOI, purpose, email approval).
+- [ ] Clip roads to corporation boundary (Phase 4).
+- [ ] Complete data provenance documentation for Bhuvan dataset.
 - [ ] Begin Phase 4 — GIS Data Engineering (only after Phase 3 complete).
 
 ## Active Decisions
@@ -193,9 +199,11 @@ Build a GIS-based Spatial Decision-Support System that demonstrates how GIS supp
 
 | Source | Purpose | Status |
 |--------|---------|--------|
-| OpenStreetMap | Roads, healthcare, education, water, civic facilities (contextual) | Identified — extraction pending |
+| OpenStreetMap | Roads, healthcare, education, water, civic facilities | **ACQUIRED** (7 datasets, GeoJSON) |
+| OpenStreetMap | Corporation boundary (OSM relation 1553009) | **ACQUIRED** |
+| OpenStreetMap | Ward boundaries (65 OSM relations) | **ACQUIRED** |
+| Bhuvan (ISRO) | LULC 1:50K (primary Indian geospatial candidate) | **SOURCE VERIFIED** — requires manual request |
 | Survey of India | Administrative boundary database (up to taluk level) | Identified — corporation boundary may need state source |
-| Bhuvan (ISRO/NRSC) | LULC 1:50K (primary Indian geospatial candidate) | Identified — download request pending |
 | Tamil Nadu Government | Ward boundaries, corporation boundary | Identified — portal documented |
 | VEDAS | Geoscience data | Not yet evaluated for relevance |
 | MOSDAC | Meteorological data | Not yet evaluated for relevance |
@@ -214,15 +222,15 @@ Provenance model established in `docs/data/data-provenance.md`. Per-dataset prov
 
 | Dataset | Source | Acquired | Processed | Verified |
 |---------|--------|----------|-----------|----------|
-| Trichy Corporation Boundary | SoI / TN Govt | No | No | No |
-| Ward Boundaries (65 wards) | TN Govt / OSM | No | No | No |
-| Roads (19,064) | OpenStreetMap | No | No | No |
-| Healthcare facilities (236) | OpenStreetMap | No | No | No |
-| Education facilities (55) | OpenStreetMap | No | No | No |
-| Water features (563) | OpenStreetMap | No | No | No |
-| Civic facilities (34) | OpenStreetMap | No | No | No |
+| Trichy Corporation Boundary | OSM (relation 1553009) | Yes | No | Yes |
+| Ward Boundaries (65 wards) | OSM (admin_level=10) | Yes | No | Yes |
+| Roads (15,409) | OSM (bbox query) | Yes | No | Yes |
+| Healthcare facilities (234) | OSM (bbox query) | Yes | No | Yes |
+| Education facilities (47) | OSM (bbox query) | Yes | No | Yes |
+| Water features (528) | OSM (bbox query) | Yes | No | Yes |
+| Civic facilities (40) | OSM (bbox query) | Yes | No | Yes |
 | Population spatial data | N/A | Not available | N/A | N/A |
-| Bhuvan LULC 1:50K | ISRO/NRSC | No | No | No |
+| Bhuvan LULC 1:50K | ISRO/NRSC | No (pending) | No | Source verified |
 
 ---
 
@@ -334,13 +342,14 @@ None at initialization.
 |-------|-------|
 | Status | **IN PROGRESS** |
 | Started | 2026-08-17 |
-| Completed work | Data inventory (9 datasets), provenance model, data dictionary (schemas pending), quality report template, Indian geospatial candidate research, GitHub repository setup (public, initial commit pushed) |
+| Completed work | Data inventory (9 datasets), provenance model, data dictionary (schemas pending), quality report template, Indian geospatial candidate research, GitHub repository setup (public, initial commit pushed), OSM data acquisition (7 datasets), OSM validation, Bhuvan source verification |
 | Files created | `docs/data/data-inventory.md`, `docs/data/data-provenance.md`, `docs/data/data-dictionary.md`, `docs/data/data-quality-report.md` |
-| Decisions made | Bhuvan LULC 50K as primary Indian dataset candidate; OSM as contextual/facility data source |
-| Validation | Repository inspected — no GIS data files present |
-| Known issues | No datasets acquired yet; data acquisition is the critical next step |
-| Remaining work | Acquire datasets, validate, complete provenance, verify Indian dataset |
-| Next action | Acquire GIS datasets and validate them |
+| Files acquired | `gis/raw/osm/corporation_boundary.json` (22.3 KB), `gis/raw/osm/wards.json` (42.2 KB), `gis/raw/osm/roads.json` (3797.7 KB), `gis/raw/osm/healthcare.json` (87.4 KB), `gis/raw/osm/education.json` (10.2 KB), `gis/raw/osm/water.json` (259.5 KB), `gis/raw/osm/civic.json` (9.8 KB), `gis/raw/osm/VALIDATION_REPORT.md` |
+| Decisions made | Bhuvan LULC 50K as primary Indian dataset candidate; OSM as contextual/facility data source; OSM corporation boundary (relation 1553009) as study area boundary |
+| Validation | All 7 OSM datasets validated (geometry, CRS, counts, coverage). Corporation boundary: 30 ways, 359 points. Wards: 65 (matches spec). Roads: 15,409. Healthcare: 234. Education: 47. Water: 528. Civic: 40. |
+| Known issues | Roads extracted from bounding box, not clipped to corporation boundary. Bhuvan LULC 50K requires manual download request. All OSM data is community-maintained, not official government data. |
+| Remaining work | Bhuvan LULC 50K download (manual request), clip roads to corporation boundary (Phase 4) |
+| Next action | Bhuvan download request (manual), then Phase 4 — GIS Data Engineering |
 
 ### Phase 4 — GIS Data Engineering
 

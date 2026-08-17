@@ -1,0 +1,463 @@
+﻿{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-17T16:04:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 2152463911,
+  "lat": 10.8571762,
+  "lon": 78.6896428,
+  "tags": {
+    "amenity": "police",
+    "name": "Police Srirangam"
+  }
+},
+{
+  "type": "node",
+  "id": 2296700647,
+  "lat": 10.8227941,
+  "lon": 78.6827960,
+  "tags": {
+    "amenity": "post_office",
+    "name": "Thillainagar Post Office"
+  }
+},
+{
+  "type": "node",
+  "id": 2296700944,
+  "lat": 10.8228204,
+  "lon": 78.6827289,
+  "tags": {
+    "amenity": "police",
+    "name": "B2 Police Station"
+  }
+},
+{
+  "type": "node",
+  "id": 3686857438,
+  "lat": 10.7710082,
+  "lon": 78.7956650,
+  "tags": {
+    "amenity": "police",
+    "name": "Boiler Plant Police Station"
+  }
+},
+{
+  "type": "node",
+  "id": 3686969884,
+  "lat": 10.7853295,
+  "lon": 78.7753025,
+  "tags": {
+    "amenity": "post_office",
+    "brand": "Desk to Desk Courier & Cargo",
+    "brand:short": "DTDC",
+    "brand:wikidata": "Q55608802",
+    "name": "DTDC courier",
+    "operator": "Desk to Desk Courier & Cargo",
+    "operator:short": "DTDC",
+    "operator:wikidata": "Q55608802"
+  }
+},
+{
+  "type": "node",
+  "id": 3686978638,
+  "lat": 10.7845981,
+  "lon": 78.7756621,
+  "tags": {
+    "amenity": "post_office",
+    "branch": "thiruverambur",
+    "brand": "India Post",
+    "operator": "India Post",
+    "operator:wikidata": "Q3519720",
+    "operator:wikipedia": "en:India Post"
+  }
+},
+{
+  "type": "node",
+  "id": 3730099491,
+  "lat": 10.7766906,
+  "lon": 78.7929444,
+  "tags": {
+    "amenity": "post_office",
+    "brand": "India Post",
+    "operator": "India Post",
+    "operator:wikidata": "Q3519720",
+    "operator:wikipedia": "en:India Post"
+  }
+},
+{
+  "type": "node",
+  "id": 3730202097,
+  "lat": 10.8032519,
+  "lon": 78.7388497,
+  "tags": {
+    "amenity": "post_office",
+    "brand": "Blue Dart Express",
+    "brand:short": "Blue Dart",
+    "brand:wikidata": "Q54621493",
+    "operator": "Blue Dart Express",
+    "operator:short": "Blue Dart",
+    "operator:wikidata": "Q54621493"
+  }
+},
+{
+  "type": "node",
+  "id": 3730202122,
+  "lat": 10.8161847,
+  "lon": 78.6942025,
+  "tags": {
+    "amenity": "police",
+    "branch": "Gandhi Market"
+  }
+},
+{
+  "type": "node",
+  "id": 3731233552,
+  "lat": 10.7771467,
+  "lon": 78.7888824,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "B Sector Thirumana mandapam"
+  }
+},
+{
+  "type": "node",
+  "id": 3734782483,
+  "lat": 10.7864807,
+  "lon": 78.7750488,
+  "tags": {
+    "amenity": "post_office",
+    "brand": "First Flight",
+    "name": "First Flight Courier"
+  }
+},
+{
+  "type": "node",
+  "id": 3785957580,
+  "lat": 10.7937278,
+  "lon": 78.6840395,
+  "tags": {
+    "addr:street": "Bharathiyar Salai",
+    "government": "transportation",
+    "name": "Tiruchirappalli Division HQ/SR",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 4420664526,
+  "lat": 10.7818824,
+  "lon": 78.6888614,
+  "tags": {
+    "name": "Office of the joing registrar of Cooperative Societies",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 4436123523,
+  "lat": 10.7588027,
+  "lon": 78.7077417,
+  "tags": {
+    "amenity": "police",
+    "name": "Airport Police Station",
+    "name:ar": "┘à╪▒┘â╪▓ ╪┤╪▒╪╖╪⌐ ╪º┘ä┘à╪╖╪º╪▒"
+  }
+},
+{
+  "type": "node",
+  "id": 4447848616,
+  "lat": 10.8551129,
+  "lon": 78.6942518,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "Chaturbujam kaltana Mahal"
+  }
+},
+{
+  "type": "node",
+  "id": 4543308094,
+  "lat": 10.8266164,
+  "lon": 78.6946494,
+  "tags": {
+    "amenity": "police"
+  }
+},
+{
+  "type": "node",
+  "id": 4592158996,
+  "lat": 10.7895835,
+  "lon": 78.6803313,
+  "tags": {
+    "amenity": "police",
+    "name:en": "TSP Police Camp"
+  }
+},
+{
+  "type": "node",
+  "id": 4672525724,
+  "lat": 10.7846919,
+  "lon": 78.7841689,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "Bhelpur Function Hall"
+  }
+},
+{
+  "type": "node",
+  "id": 4701650874,
+  "lat": 10.8161795,
+  "lon": 78.6944015,
+  "tags": {
+    "amenity": "police",
+    "name": "Gandhi Market Police Station"
+  }
+},
+{
+  "type": "node",
+  "id": 4717357656,
+  "lat": 10.7895689,
+  "lon": 78.7012556,
+  "tags": {
+    "amenity": "post_office",
+    "brand": "Desk to Desk Courier & Cargo",
+    "brand:short": "DTDC",
+    "brand:wikidata": "Q55608802",
+    "name": "DTDC",
+    "operator": "Desk to Desk Courier & Cargo",
+    "operator:short": "DTDC",
+    "operator:wikidata": "Q55608802"
+  }
+},
+{
+  "type": "node",
+  "id": 4878934207,
+  "lat": 10.7849021,
+  "lon": 78.7208030,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "Ambedkar Thirumanamandapam"
+  }
+},
+{
+  "type": "node",
+  "id": 4878937314,
+  "lat": 10.7941801,
+  "lon": 78.7276603,
+  "tags": {
+    "amenity": "post_office",
+    "brand": "India Post",
+    "operator": "India Post",
+    "operator:wikidata": "Q3519720"
+  }
+},
+{
+  "type": "node",
+  "id": 4919747922,
+  "lat": 10.7837414,
+  "lon": 78.6911812,
+  "tags": {
+    "name:en": "Kaja Mian street",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 5003295555,
+  "lat": 10.8013586,
+  "lon": 78.6893772,
+  "tags": {
+    "amenity": "post_office",
+    "name": "Trichy Head Post Office",
+    "name:ta": "α«ñα«┐α«░α»üα«Üα»ìα«Üα«┐ α«ñα«▓α»êα««α»ê α«ñα«¬α«╛α«▓α»ì α«¿α«┐α«▓α»êα«»α««α»ì"
+  }
+},
+{
+  "type": "node",
+  "id": 5079396769,
+  "lat": 10.7806820,
+  "lon": 78.7015497,
+  "tags": {
+    "amenity": "police",
+    "name": "District Commissioner Office"
+  }
+},
+{
+  "type": "node",
+  "id": 5079397456,
+  "lat": 10.7849428,
+  "lon": 78.6990110,
+  "tags": {
+    "amenity": "police",
+    "name": "District Police Office"
+  }
+},
+{
+  "type": "node",
+  "id": 5234610593,
+  "lat": 10.8105243,
+  "lon": 78.6962574,
+  "tags": {
+    "amenity": "post_office",
+    "name": "trichy port post office"
+  }
+},
+{
+  "type": "node",
+  "id": 5234663137,
+  "lat": 10.8175874,
+  "lon": 78.6836505,
+  "tags": {
+    "amenity": "social_facility",
+    "name": "shanmugam nursing home",
+    "social_facility": "nursing_home",
+    "social_facility:for": "senior"
+  }
+},
+{
+  "type": "node",
+  "id": 5234743116,
+  "lat": 10.8033206,
+  "lon": 78.6788781,
+  "tags": {
+    "amenity": "social_facility",
+    "name": "vestery ground",
+    "social_facility": "group_home",
+    "social_facility:for": "senior"
+  }
+},
+{
+  "type": "node",
+  "id": 5234779869,
+  "lat": 10.7901246,
+  "lon": 78.6825796,
+  "tags": {
+    "amenity": "police",
+    "name": "Tamil nadu special police battalion"
+  }
+},
+{
+  "type": "node",
+  "id": 5338398494,
+  "lat": 10.7958071,
+  "lon": 78.6817163,
+  "tags": {
+    "amenity": "post_office",
+    "brand": "KPN Speed Parcel Service (P) Ltd"
+  }
+},
+{
+  "type": "node",
+  "id": 5678203932,
+  "lat": 10.7971954,
+  "lon": 78.7534121,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "Gowri Mini hall A/C"
+  }
+},
+{
+  "type": "node",
+  "id": 5678208923,
+  "lat": 10.8051810,
+  "lon": 78.7312024,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "Sri Charles Mahal A/C"
+  }
+},
+{
+  "type": "node",
+  "id": 8008823928,
+  "lat": 10.7896366,
+  "lon": 78.6664830,
+  "tags": {
+    "addr:city": "Tiruchirappalli",
+    "addr:housenumber": "12A/3",
+    "addr:postcode": "620001",
+    "addr:street": "Jeya Nagar, Karumandapam",
+    "amenity": "community_centre",
+    "description": "It is a training Centre for the Catholic Youth of Tamil Nadu. It coordinates all the activities of Youth Ministry and accompany the Youth. Our Lady of Healer Church, SPS Marriage hall",
+    "email": "tnbctcym@gmail.com",
+    "name": "Ilaiya Deepam",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "operator": "Martin Joseph, Secretary, TNBC Youth Commission",
+    "operator:type": "religious",
+    "website": "tcymtnbc.org"
+  }
+},
+{
+  "type": "node",
+  "id": 10139154178,
+  "lat": 10.7987280,
+  "lon": 78.7515111,
+  "tags": {
+    "amenity": "community_centre",
+    "check_date": "2022-10-28",
+    "name": "Santhosh Mahal",
+    "operator:type": "private",
+    "source": "survey",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13031427844,
+  "lat": 10.8082395,
+  "lon": 78.6845499,
+  "tags": {
+    "name": "α«ñα«▓α»êα««α»ê α«¬α»èα«▒α«┐α«»α«╛α«│α«░α»ì α«àα«▓α»üα«╡α«▓α«òα««α»ì",
+    "name:en": "Chief Engineer's Office",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 14088746402,
+  "lat": 10.8124638,
+  "lon": 78.6784929,
+  "tags": {
+    "amenity": "police",
+    "name": "GH Police station"
+  }
+},
+{
+  "type": "node",
+  "id": 14094193101,
+  "lat": 10.8132617,
+  "lon": 78.6774415,
+  "tags": {
+    "name": "α««α«úα»ìα«ƒα«▓α««α»ì 5 α«╡α«╛α«░α»ìα«ƒα»ü α«òα»üα«┤α»ü α«àα«▓α»üα«╡α«▓α«òα««α»ì",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 14094221701,
+  "lat": 10.8129841,
+  "lon": 78.6774765,
+  "tags": {
+    "name": "α«àα«░α«Üα»ü α«ç-α«Üα»çα«╡α»ê α««α»êα«»α««α»ì",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 14094222101,
+  "lat": 10.8129932,
+  "lon": 78.6775164,
+  "tags": {
+    "name": "α«Äα«▓α»ìα«òα«╛α«ƒα»ì α«åα«ñα«╛α«░α»ì α«¬α«ñα«┐α«╡α»ü α««α»êα«»α««α»ì",
+    "office": "government",
+    "opening_hours": "Mo-Sa 10:30-13:30,14:30-16:30"
+  }
+}
+
+  ]
+}
+

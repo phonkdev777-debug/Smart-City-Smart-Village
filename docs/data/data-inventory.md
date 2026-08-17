@@ -6,7 +6,7 @@
 
 **Status:** IN PROGRESS
 
-**Last updated:** 2026-08-17
+**Last updated:** 2026-08-17 (Phase 3B — OSM data acquired)
 
 ---
 
@@ -14,14 +14,14 @@
 
 | Category | Datasets Identified | Datasets Verified | Datasets Acquired |
 |----------|--------------------|--------------------|-------------------|
-| Corporation Boundary | 2 candidates | 0 | 0 |
-| Ward Boundaries | 2 candidates | 0 | 0 |
-| Roads | 1 source | 0 | 0 |
-| Healthcare | 1 source | 0 | 0 |
-| Education | 1 source | 0 | 0 |
-| Water Features | 1 source | 0 | 0 |
-| Civic Facilities | 1 source | 0 | 0 |
-| Indian Geospatial (LULC) | 2 candidates | 0 | 0 |
+| Corporation Boundary | 2 candidates | 1 (OSM) | 1 |
+| Ward Boundaries | 2 candidates | 1 (OSM) | 1 |
+| Roads | 1 source | 1 (OSM) | 1 |
+| Healthcare | 1 source | 1 (OSM) | 1 |
+| Education | 1 source | 1 (OSM) | 1 |
+| Water Features | 1 source | 1 (OSM) | 1 |
+| Civic Facilities | 1 source | 1 (OSM) | 1 |
+| Indian Geospatial (LULC) | 2 candidates | 1 (Bhuvan verified) | 0 (requires manual request) |
 
 ---
 
@@ -29,19 +29,17 @@
 
 The project specification references the following data counts. These are treated as **project-provided existing-data references**.
 
-**SOURCE DATA NOT YET PRESENT IN REPOSITORY.**
+**OSM DATA ACQUIRED — Raw GeoJSON files in `gis/raw/osm/`**
 
-No GIS data files (.shp, .gpkg, .geojson, .tif) exist in the repository.
-
-| Category | Reference Count | Files in Repository | Status |
-|----------|----------------|---------------------|--------|
-| Corporation Boundary | 1 | None | NOT PRESENT |
-| Ward Boundaries | 65 | None | NOT PRESENT |
-| Roads | 19,064 | None | NOT PRESENT |
-| Healthcare facilities | 236 | None | NOT PRESENT |
-| Education facilities | 55 | None | NOT PRESENT |
-| Water features | 563 | None | NOT PRESENT |
-| Civic facilities | 34 | None | NOT PRESENT |
+| Category | Reference Count | Acquired Count | Status |
+|----------|----------------|----------------|--------|
+| Corporation Boundary | 1 | 1 (OSM relation) | ACQUIRED |
+| Ward Boundaries | 65 | 65 (OSM admin_level=10) | ACQUIRED |
+| Roads | 19,064 | 15,409 (bbox, not clipped) | ACQUIRED |
+| Healthcare facilities | 236 | 234 | ACQUIRED |
+| Education facilities | 55 | 47 | ACQUIRED |
+| Water features | 563 | 528 | ACQUIRED |
+| Civic facilities | 34 | 40 | ACQUIRED |
 
 ---
 
@@ -68,9 +66,9 @@ No GIS data files (.shp, .gpkg, .geojson, .tif) exist in the repository.
 | Current Repository Location | NOT PRESENT |
 | Processing Status | NOT STARTED |
 | Intended Project Use | Study area boundary for clipping, project context, Web GIS base layer |
-| Verification Status | NOT VERIFIED — candidates identified, actual availability pending |
-| Notes | SoI provides admin boundaries up to taluk level. Municipal corporation boundary may need to be sourced from Tamil Nadu Government / Trichy Corporation official sources. Trichy Corporation website has city map PDF with ward boundaries. |
-| Known Limitations | SoI admin boundary database may not have municipal corporation level — may stop at taluk. Corporation boundary may need to be derived from ward boundaries or sourced from state government. |
+| Verification Status | SOURCE VERIFIED — OSM relation 1553009 |
+| Notes | Acquired via Overpass API on 2026-08-17. OSM relation 1553009, admin_level=8, 30 member ways, 359 geometry points. Coordinates: Lat 10.7273-10.8805, Lon 78.6307-78.7835. Wikidata Q4045755. Source website references trichycorporation.gov.in. This is OSM community data, NOT official government boundary. |
+| Known Limitations | OSM is community-maintained, not official government data. Source tag references corporation website but data may not be current or accurate to official boundary. Official digital boundary not publicly downloadable (TNGIS requires authentication). |
 
 ### DS-002: Ward Boundaries (65 Wards)
 
@@ -93,9 +91,9 @@ No GIS data files (.shp, .gpkg, .geojson, .tif) exist in the repository.
 | Current Repository Location | NOT PRESENT |
 | Processing Status | NOT STARTED |
 | Intended Project Use | Ward-level spatial analysis, ward selection, thematic mapping |
-| Verification Status | NOT VERIFIED — ward count confirmed as 65 (5 zones × 13 wards) |
-| Notes | Corporation website confirms 65 wards in 5 zones. Ward map PDF available. OSM may have ward boundaries as admin_level 8. TN Urban Tree portal also has ward data. |
-| Known Limitations | Digital ward boundary shapefile/GeoJSON source not yet identified. May need to extract from OSM or request from corporation. |
+| Verification Status | SOURCE VERIFIED — 65 OSM relations (admin_level=10) |
+| Notes | Acquired via Overpass API on 2026-08-17. 65 ward boundaries found in OSM (admin_level=10 within bounding box). Names: Ward 1 through Ward 65. Matches project specification count. |
+| Known Limitations | OSM ward boundaries are community-maintained, not official government data. Official digital ward boundary shapefile not publicly downloadable. Corporation website has PDF ward maps only. |
 
 ### DS-003: Roads
 
@@ -118,9 +116,9 @@ No GIS data files (.shp, .gpkg, .geojson, .tif) exist in the repository.
 | Current Repository Location | NOT PRESENT |
 | Processing Status | NOT STARTED |
 | Intended Project Use | Road network for contextual mapping, proximity analysis reference |
-| Verification Status | NOT VERIFIED — OSM relation exists, feature count not yet verified against 19,064 reference |
-| Notes | Roads can be extracted via Overpass API or download tools (osmium, etc.). Need to clip to municipal corporation boundary. OSM data is community-maintained — not official government data. |
-| Known Limitations | OSM is not a complete census of roads. Missing OSM roads do not necessarily mean they don't exist. Cannot be claimed as official road data. |
+| Verification Status | ACQUIRED — 15,409 elements (reference: 19,064) |
+| Notes | Acquired via Overpass API on 2026-08-17. Bounding box query (10.75-10.90, 78.60-78.80). 15,409 road elements. Road types: residential (11,834), service (1,277), unclassified (677), tertiary (486), trunk (374), secondary (249), primary (170). NOT clipped to corporation boundary — some roads may be outside limits. |
+| Known Limitations | Extracted from bounding box, not clipped to corporation boundary. OSM is community-maintained, not official government data. OSM is not a complete census of roads. Feature count differs from reference (expected). |
 
 ### DS-004: Healthcare Facilities
 
@@ -143,9 +141,9 @@ No GIS data files (.shp, .gpkg, .geojson, .tif) exist in the repository.
 | Current Repository Location | NOT PRESENT |
 | Processing Status | NOT STARTED |
 | Intended Project Use | Healthcare facility mapping, proximity analysis, gap analysis |
-| Verification Status | NOT VERIFIED — reference count 236 not yet verified |
-| Notes | OSM healthcare features tagged with amenity=hospital, amenity=clinic, amenity=doctors, healthcare=* |
-| Known Limitations | OSM is not a complete census of healthcare facilities. Cannot claim "this ward has no healthcare" based on OSM absence. |
+| Verification Status | ACQUIRED — 234 elements (reference: 236) |
+| Notes | Acquired via Overpass API on 2026-08-17. Bounding box query. 234 healthcare elements. Types: hospital (133), clinic (52), pharmacy (22), dentist (8), doctors (2), blood_bank (1). |
+| Known Limitations | OSM is community-maintained, not official government data. OSM is NOT a complete census of healthcare facilities. Cannot claim "this ward has no healthcare" based on OSM absence. Feature count close to reference. |
 
 ### DS-005: Education Facilities
 
@@ -168,9 +166,9 @@ No GIS data files (.shp, .gpkg, .geojson, .tif) exist in the repository.
 | Current Repository Location | NOT PRESENT |
 | Processing Status | NOT STARTED |
 | Intended Project Use | Education facility mapping, gap analysis |
-| Verification Status | NOT VERIFIED — reference count 55 not yet verified |
-| Notes | OSM education features tagged with amenity=school, amenity=college, amenity=university, education=* |
-| Known Limitations | OSM is not a complete census of education facilities. |
+| Verification Status | ACQUIRED — 47 elements (reference: 55) |
+| Notes | Acquired via Overpass API on 2026-08-17. Bounding box query. 47 education elements. Types: school (39), university (5), college (3). |
+| Known Limitations | OSM is community-maintained, not official government data. OSM is NOT a complete census of education facilities. Feature count differs from reference (expected). |
 
 ### DS-006: Water Features
 
@@ -193,9 +191,9 @@ No GIS data files (.shp, .gpkg, .geojson, .tif) exist in the repository.
 | Current Repository Location | NOT PRESENT |
 | Processing Status | NOT STARTED |
 | Intended Project Use | Water feature mapping, distribution analysis |
-| Verification Status | NOT VERIFIED — reference count 563 not yet verified |
-| Notes | OSM water features tagged with natural=water, waterway=*, man_made=water_tap, etc. |
-| Known Limitations | OSM water features may not be complete. |
+| Verification Status | ACQUIRED — 528 elements (reference: 563) |
+| Notes | Acquired via Overpass API on 2026-08-17. Bounding box query. 528 water elements. Types: waterway=ditch (319), waterway=drain (50), waterway=canal (50), natural=water (47), waterway=stream (36), waterway=river (22). Mixed geometry: Point/Polygon/LineString. |
+| Known Limitations | OSM is community-maintained, not official government data. OSM water features may not be complete. Feature count close to reference. |
 
 ### DS-007: Civic Facilities
 
@@ -218,9 +216,9 @@ No GIS data files (.shp, .gpkg, .geojson, .tif) exist in the repository.
 | Current Repository Location | NOT PRESENT |
 | Processing Status | NOT STARTED |
 | Intended Project Use | Civic facility mapping, availability analysis |
-| Verification Status | NOT VERIFIED — reference count 34 not yet verified |
-| Notes | OSM civic features may include community centres, town halls, post offices, fire stations, police stations, etc. Exact category definition needs clarification. |
-| Known Limitations | "Civic facilities" is a broad category — exact definition needs alignment with project specification. |
+| Verification Status | ACQUIRED — 40 elements (reference: 34) |
+| Notes | Acquired via Overpass API on 2026-08-17. Bounding box query. 40 civic elements. Types: police (12), post_office (11), community_centre (8), office=government (7), social_facility (2). |
+| Known Limitations | OSM is community-maintained, not official government data. "Civic facilities" is a broad category. Feature count differs from reference (expected). |
 
 ### DS-008: Bhuvan LULC 1:50K (Indian Geospatial Dataset — Primary Candidate)
 
@@ -243,9 +241,9 @@ No GIS data files (.shp, .gpkg, .geojson, .tif) exist in the repository.
 | Current Repository Location | NOT PRESENT |
 | Processing Status | NOT STARTED |
 | Intended Project Use | Thematic analysis — land use/land cover distribution within Trichy corporation, urban expansion analysis, green space identification, built-up area analysis |
-| Verification Status | NOT VERIFIED — dataset exists on Bhuvan, availability for Trichy district pending confirmation |
-| Notes | Available temporal cycles: 2005-06, 2011-12, 2015-16. Latest available is 2015-16. Download requires user registration, AOI selection, purpose specification, and email approval. LULC classes include built-up, water, vegetation, fallow land, etc. |
-| Known Limitations | Latest LULC 50K is 2015-16 — not current. Download process is manual (request-based). Data may not cover exact corporation boundary — will need clipping. Classification scheme needs verification. |
+| Verification Status | SOURCE VERIFIED — download requires manual request |
+| Notes | Verified from Bhuvan portal on 2026-08-17. Available temporal cycles: 2005-06, 2011-12, 2015-16. Format: Shapefile. Download process: Register → Select up to 5 districts → Draw AOI → Specify purpose → Email approval → Download link. LULC classes include built-up, water, vegetation, fallow land, etc. WMS service also available for visualization. |
+| Known Limitations | Latest LULC 50K is 2015-16 — not current. Download is request-based (manual process, cannot be automated). Data may not cover exact corporation boundary — will need clipping. Classification scheme needs verification from technical document. |
 
 ### DS-009: Bhuvan LULC 1:250K (Indian Geospatial Dataset — Alternative Candidate)
 
@@ -278,14 +276,14 @@ No GIS data files (.shp, .gpkg, .geojson, .tif) exist in the repository.
 
 | Requirement | Dataset(s) | Status |
 |-------------|-----------|--------|
-| Study area boundary | DS-001 (Corporation Boundary) | NOT VERIFIED |
-| Ward boundaries (65) | DS-002 (Ward Boundaries) | NOT VERIFIED |
-| Road network (19,064) | DS-003 (Roads — OSM) | NOT VERIFIED |
-| Healthcare (236) | DS-004 (Healthcare — OSM) | NOT VERIFIED |
-| Education (55) | DS-005 (Education — OSM) | NOT VERIFIED |
-| Water features (563) | DS-006 (Water — OSM) | NOT VERIFIED |
-| Civic facilities (34) | DS-007 (Civic — OSM) | NOT VERIFIED |
-| Indian satellite/geospatial data | DS-008 (Bhuvan LULC 50K) | NOT VERIFIED |
+| Study area boundary | DS-001 (Corporation Boundary — OSM) | ACQUIRED |
+| Ward boundaries (65) | DS-002 (Ward Boundaries — OSM, 65 found) | ACQUIRED |
+| Road network (19,064) | DS-003 (Roads — OSM, 15,409 found) | ACQUIRED |
+| Healthcare (236) | DS-004 (Healthcare — OSM, 234 found) | ACQUIRED |
+| Education (55) | DS-005 (Education — OSM, 47 found) | ACQUIRED |
+| Water features (563) | DS-006 (Water — OSM, 528 found) | ACQUIRED |
+| Civic facilities (34) | DS-007 (Civic — OSM, 40 found) | ACQUIRED |
+| Indian satellite/geospatial data | DS-008 (Bhuvan LULC 50K) | VERIFIED — requires manual request |
 | Population spatial data | N/A — Not available | NOT APPLICABLE |
 
 ---
