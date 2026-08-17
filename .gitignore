@@ -1,0 +1,76 @@
+# Smart Trichy — .gitignore
+# GIS Data and processed outputs — not committed to repo
+*.gpkg-shm
+*.gpkg-wal
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.qix
+*.lyr
+*.lrx
+*.sld
+
+# QGIS project cache
+*.qgs~
+*.qgz~
+*.qgz
+
+# GeoTIFF and raster data
+*.tif
+*.tiff
+*.tif.aux.xml
+*.vrt
+*.ovr
+
+# Large binary datasets (tracked separately or downloaded)
+data/raw/*
+data/processed/*
+data/interim/*
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+
+# Generated maps and exports
+exports/*
+!exports/.gitkeep
+
+# Node modules (frontend)
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+.vite/
+
+# Coverage
+coverage/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Temporary
+tmp/
+temp/
+*.tmp
